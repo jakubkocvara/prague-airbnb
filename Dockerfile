@@ -11,3 +11,4 @@ USER $NB_UID
 RUN pip install geoplot
 RUN pip uninstall -y shapely
 RUN pip install --no-binary shapely shapely
+RUN pip install xgboost
