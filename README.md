@@ -5,6 +5,16 @@ This repository includes two Jupyter notebooks:
 * `prague-airbnb.ipynb` - data preprocessing, fitting a regression model, visualisation of feature importance via `SHAP`
 * `prague-airbnb-visualisation.ipynb` - plotting geographical data from the dataset via `geoplot`
 
+## Data
+The source data was obtained from the Inside Airbnb project ([http://insideairbnb.com/get-the-data.html](http://insideairbnb.com/get-the-data.html)). It includes information about:
+* property - number of bedrooms, bathrooms, amenities, property type, text description etc
+* hosts - number of other listings, superhost status, hosting experience
+* property location - neighbourhood info, latitude and longitude
+* availability
+* summary of reviews
+
+This data set was enriched with the transit time needed to get to the city centre, popular tourist attraction [Old Town Square](https://goo.gl/maps/pScZHAUKP2ECCQJB7) was chosen. All route times were retrieved via the Google Cloud Routes API ([https://cloud.google.com/maps-platform/routes](https://cloud.google.com/maps-platform/routes)). These times are calculated for a weekday at 9:00 AM.
+
 ## Installation
 You can run these notebooks on your Jupyter notebook installation with following prerequisites:
 * [PROJ](https://proj.org/index.html) - coordinate transformation software
