@@ -5,6 +5,8 @@ This repository includes two Jupyter notebooks:
 * `prague-airbnb.ipynb` - data preprocessing, fitting a regression model, visualisation of feature importance via `SHAP`
 * `prague-airbnb-visualisation.ipynb` - plotting geographical data from the dataset via `geoplot`
 
+**:book: Associated Medium article explaining the results: [How does location affect the price of Airbnb in Prague?](https://medium.com/@jakubkocvara/how-does-location-affect-the-price-of-airbnb-in-prague-b8e31e766ca8)**
+
 ## Data
 The source data was obtained from the Inside Airbnb project ([http://insideairbnb.com/get-the-data.html](http://insideairbnb.com/get-the-data.html)). It includes information about:
 * property - number of bedrooms, bathrooms, amenities, property type, text description etc
